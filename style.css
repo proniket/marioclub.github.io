@@ -1,0 +1,239 @@
+* {
+    box-sizing: border-box;
+}
+body, ul, li, h1, h2, a{
+    margin: 0;
+    padding: 0;
+    font-family: tahoma;
+}
+p{
+    font-size: 18px;
+}
+/* Header */
+header{
+    background-color: #F63232;
+    padding: 20px 0;
+    text-align: center;
+    width: 100%;
+    color: #fff;
+    position: relative;
+    top: 0;
+}
+header h1{
+    border: 8px solid #fff;
+    font-size: 2rem;
+    display: inline-block;
+    border-radius: 40px;
+    padding: 6px 12px;
+}
+
+/* Banner */
+
+.mario{
+    max-width: 100%;
+    position: relative;
+}
+.mario img{
+    max-width: 100%;
+}
+.mario .mario__welcome{
+    background-color: #FEB614;
+    font-size: 1.25rem;
+    position: relative;
+    text-align: center;
+    padding: 1.875rem;
+    margin-top: -4px;
+}
+.mario .mario__welcome br{
+    display: none;
+}
+.article__img{
+    display:  contents;
+}
+.mario .mario__welcome h2{
+    color: #fff;
+}
+
+/* Navigation */
+.mario__nav{
+    background-color: #F4F4F4;
+    padding: 1.25rem;
+    position: relative;
+    top: 0;
+}
+.mario__nav ul{
+    white-space: nowrap;
+    max-width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+}
+.mario__nav li{
+    display: block;
+    font-size: 1.125rem;
+    margin: 0.75rem 0;
+
+}
+.mario__nav li a{
+    text-decoration: none;
+    color: #4B4B4B;
+}
+.mario__nav li a:hover{
+    text-decoration: underline;
+}
+.mario__nav .join{
+    color: #F63232;
+}
+
+/* Main */
+main{
+    max-width: 100%;
+    width: 1200px;
+    margin: 5rem auto;
+    padding: 0 2.5rem;
+}
+article h1{
+    font-size: 2.25rem;
+    color:#F63232;
+}
+article p{
+    line-height: 2.25rem;
+    color: #4B4B4B;
+}
+article p::first-line{
+    font-weight: bold;
+    font-size: 1.2em;
+}  
+.article__img{
+    margin: 5rem 0;
+}
+.article__img img{
+    display: block;
+    max-width: 100%;
+    margin-bottom: 1.25rem;
+    position: relative;
+}
+.article__img img:hover{
+    top: -4px;
+    border-radius: 10px solid red;
+}
+
+/* Join_section */
+.join_section{
+    background-color: #F4F4F4;
+    max-width: 100%;
+    text-align: center;
+    padding: 60px 20px;
+    color: #4B4B4B;
+}
+.join_section h1{
+    font-size: 2.125rem;
+}
+.join_section form input {
+    margin: 20px 0;
+    padding: 10px 20px;
+    font-size: 24px;
+    border-radius: 28px;
+    border: 4px solid white;
+}
+.join_section form input:focus {
+    border: 4px dotted #4B4B4B;
+    outline: none;
+}
+.join_section form input:focus{
+    border: 4px solid #71d300;
+ }
+ footer{
+    background: #F63232;
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
+
+/* Responsive Layout */
+
+@media  screen and (min-width: 560px){
+    header{
+        position: fixed;
+        top: 0;
+        left: 0;
+        z-index: 1;
+    }
+    .mario .mario__nav{
+        position: fixed;
+        top: 106px;
+        left: 0;
+        right: 0;
+        z-index: 1;
+    }
+
+    .mario .mario__nav ul{
+        display: flex;
+        justify-content: space-evenly;
+    }
+    
+    .mario .mario__nav li{
+        display: contents;
+    }
+    /* .mario{
+        max-width: 100%;
+        position: relative;
+    }
+    .mario .mario__welcome{
+        background-color: #FEB614;
+        font-size: 1.25rem;
+        position: relative;
+        text-align: center;
+        padding: 1.875rem;
+        margin-top: -4px;
+    }
+    .mario .mario__welcome br{
+        display: none;
+    }
+    .article__img{
+        display:  contents;
+    } */
+}
+@media screen and (min-width: 700px){
+    .mario__nav li{
+        font-size: 18px;
+    }
+    .article__img{
+        display: flex;
+        text-align: center;
+        margin: 80px 0;
+        white-space: nowrap; 
+    }
+    .article__img img{
+        
+        width: 40%;
+        margin: 20px 5%;
+        /* position: relative; */
+       
+      }
+      .mario{
+        position: relative;
+      }
+    .mario .mario__welcome{
+        padding: 30px;
+        font-size: 28px;
+        position: absolute;
+        left: 0;
+        top: 49%;
+    }
+    .mario .mario__welcome br{
+        display: inline-block;
+    
+}
+@media screen and (min-width: 960px){
+    .mario .mario__welcome{
+        font-size: 40px;
+    }
+  
+}
+@media screen and (min-width: 960px){
+    .mario .mario__welcome{
+        font-size: 60px;
+    }
+  
+}
+
