@@ -2,7 +2,7 @@
 
 ### [Live Site](https://proniket.github.io/marioclub.github.io/)
 
-![Marioclub](https://proniket.imgbb.com/)
+![Marioclub](https://i.ibb.co/vdmnb9h/marioclub.png)
 
 ## Introduction
 
