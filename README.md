@@ -1,8 +1,8 @@
-# Mario Web Template 
+# Marioclub Web Template 
 
 ### [Live Site](https://proniket.github.io/marioclub.github.io/)
 
-![Chat Application](https://proniket.imgbb.com/)
+![Marioclub](https://proniket.imgbb.com/)
 
 ## Introduction
 
